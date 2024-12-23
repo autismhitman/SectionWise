@@ -82,7 +82,7 @@ public class Section26 {
 		CollectionRoot createdUser=
 				
 				given().baseUri("https://api.getpostman.com")
-				.header("","")//here need to provide thechabi tala
+				//.header("","")//here need to provide thechabi tala
 				.contentType(ContentType.JSON)
 				.log().all()
 				.body(cr)
